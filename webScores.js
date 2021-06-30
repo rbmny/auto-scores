@@ -182,6 +182,7 @@ function range(start, stop, step) {
             document.getElementById("gr50").style.visibility= "hidden";
             document.getElementById("gr150").style.visibility= "hidden";
             document.getElementById("table1").style.visibility= "hidden";
+            document.getElementById("aval").style.visibility= "hidden";
         }
     }
 
