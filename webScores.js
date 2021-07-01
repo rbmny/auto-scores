@@ -155,15 +155,18 @@ function range(start, stop, step) {
             document.getElementById("table1").style.visibility= "visible";
             document.getElementById("7").style.visibility= "hidden";
             document.getElementById("3").style.visibility= "hidden";
-            document.getElementById("4").style.visibility= "hidden";
+            document.getElementById("4").style.visibility= "visible";
             document.getElementById("gr50").style.visibility= "hidden";
-            document.getElementById("gr150").style.visibility= "hidden";
+            document.getElementById("gr150").style.visibility= "visible";
             document.getElementById("aval").style.visibility= "hidden";
+            document.getElementByID("6").style.visibility="hidden";
+            document.getElementByID("5").style.visibility="hidden";
+            document.getElementByID("ga50").style.visibility="hidden";
+            document.getElementByID("ga20").style.visibility="hidden";
             rating();
             gi120();
             gi80();
-            ga20();
-            ga50();
+            gr150();
         }
         if (getScorePre() >= 2100) {
             document.getElementById("erro").innerHTML = "Crédito Reprovado";
