@@ -159,10 +159,10 @@ function range(start, stop, step) {
             document.getElementById("gr50").style.visibility= "hidden";
             document.getElementById("gr150").style.visibility= "visible";
             document.getElementById("aval").style.visibility= "hidden";
-            document.getElementByID("6").style.visibility= "hidden";
-            document.getElementByID("5").style.visibility= "hidden";
-            document.getElementByID("ga50").style.visibility= "hidden";
-            document.getElementByID("ga20").style.visibility= "hidden";
+            document.getElementById("6").style.visibility= "hidden";
+            document.getElementById("5").style.visibility= "hidden";
+            document.getElementById("ga50").style.visibility= "hidden";
+            document.getElementById("ga20").style.visibility= "hidden";
             rating();
             gi120();
             gi80();
