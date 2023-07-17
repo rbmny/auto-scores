@@ -1,4 +1,4 @@
-#Dicionário
+#Dicionário#
 > Data de Operação  
 >
 >> ...
